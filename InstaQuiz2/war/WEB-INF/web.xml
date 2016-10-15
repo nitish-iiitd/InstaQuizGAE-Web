@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xmlns="http://java.sun.com/xml/ns/javaee"
+xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+xsi:schemaLocation="http://java.sun.com/xml/ns/javaee
+http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
+	<servlet>
+		<servlet-name>InstaQuiz2</servlet-name>
+		<servlet-class>com.mnrr.InstaQuiz2Servlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>InstaQuiz2</servlet-name>
+		<url-pattern>/instaquiz2</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>SaveQuestion</servlet-name>
+		<servlet-class>com.mnrr.SaveQuestionServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>SaveQuestion</servlet-name>
+		<url-pattern>/saveQuestion</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>AvailableQuiz</servlet-name>
+		<servlet-class>com.mnrr.GetAvailableServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>AvailableQuiz</servlet-name>
+		<url-pattern>/callPublish</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>PublishQuiz</servlet-name>
+		<servlet-class>com.mnrr.PublishQuizServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>PublishQuiz</servlet-name>
+		<url-pattern>/publishQuiz</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>GetQuiz</servlet-name>
+		<servlet-class>com.mnrr.GetQuizServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>GetQuiz</servlet-name>
+		<url-pattern>/getQuiz</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>SubmitQuiz</servlet-name>
+		<servlet-class>com.mnrr.SubmitQuizServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>SubmitQuiz</servlet-name>
+		<url-pattern>/submitAnswer</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>GetStats</servlet-name>
+		<servlet-class>com.mnrr.GetStatsServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>GetStats</servlet-name>
+		<url-pattern>/getStats</url-pattern>
+	</servlet-mapping>
+	
+	<welcome-file-list>
+		<welcome-file>index.jsp</welcome-file>
+	</welcome-file-list>
+</web-app>
