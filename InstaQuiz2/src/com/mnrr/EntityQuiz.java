@@ -19,6 +19,13 @@ public class EntityQuiz {
 		this.quiztitle = quiztitle;
 		this.code = code;
 	}
+	
+//	public EntityQuiz(com.google.appengine.api.datastore.Entity entity) {
+//		super();
+//		this.username = entity.getKey() ;
+//		this.quiztitle = entity.getProperty("quiztitle").toString() ;
+//		this.code = entity.getProperty("code").toString() ;
+//	}
 
 	public String getUsername() {
 		return username;

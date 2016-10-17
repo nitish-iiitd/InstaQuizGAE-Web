@@ -42,7 +42,7 @@ public class GetQuizServlet extends HttpServlet {
 			
 			}
 		}		
-		
+		System.out.println(selquestions.size());
 		request.setAttribute("quiz",quiz);
 		request.setAttribute("questions",selquestions);
 		request.getRequestDispatcher("/displayQuiz.jsp").forward(request, response);

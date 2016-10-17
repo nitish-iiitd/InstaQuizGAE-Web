@@ -7,7 +7,7 @@
 			<attribute name="owner.project.facets" value="java"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="/home/nitish/Downloads/Semester 1/MC/Project - InstaQuiz/SocialStandTest2/war/WEB-INF/lib/guava-14.0.1.jar"/>
-	<classpathentry kind="lib" path="/home/nitish/Downloads/Semester 1/MC/Project - InstaQuiz/SocialStandTest2/war/WEB-INF/lib/objectify-5.0.1.jar"/>
+	<classpathentry kind="lib" path="/home/nitish/Downloads/Semester 1/MC/Project - InstaQuiz/guava-18.0.jar"/>
+	<classpathentry kind="lib" path="/home/nitish/Downloads/Semester 1/MC/Project - InstaQuiz/objectify-5.1.8.jar"/>
 	<classpathentry kind="output" path="war/WEB-INF/classes"/>
 </classpath>

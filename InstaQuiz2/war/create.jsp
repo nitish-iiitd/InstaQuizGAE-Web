@@ -15,10 +15,6 @@
 </head>
 <body>
 
-	<div class="jumbotron text-center">
-		<h1>InstaQuiz</h1>
-	</div>
-
 	<div class="container">
 		<div class="row text-center">
 			<div class="col-sm-12">
@@ -85,6 +81,11 @@
 						<div class="col-sm-offset-2 col-sm-10">
 							<button type="submit" class="btn btn-default">Add
 								Question</button>
+						</div>
+					</div>
+					<div class="form-group">
+						<div class="col-sm-offset-2 col-sm-10">
+							<a href="callPublish" class="btn btn-primary" role="button">Done</a>
 						</div>
 					</div>
 				</form>
